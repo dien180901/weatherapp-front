@@ -12,7 +12,7 @@ const Input = () => {
 		event.preventDefault();
 		dispatch({ type: "WEATHER_REQUEST", payload: null });
 		try {
-			let url = `http://localhost:5000/?q=${city}`;
+			let url = `${process.env.REACT_APP_BACKEND}/?q=${city}`;
 			console.log(event.target.value);
 			let response = await fetch(url);
 			let data = await response.json();
