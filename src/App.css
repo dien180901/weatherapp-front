@@ -1,0 +1,124 @@
+.backgroundhe {
+	background: #667db6; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#667db6,
+		#0082c8,
+		#0082c8,
+		#667db6
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#667db6,
+		#0082c8,
+		#0082c8,
+		#667db6
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	height: 100vh !important ;
+	width: 100vw;
+	position: relative;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	/* bottom: 0;
+	left: 0; */
+}
+
+.dm-container-input {
+	width: 100%;
+	background: #373b44; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to top,
+		#4286f4,
+		#373b44
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to top,
+		#4286f4,
+		#373b44
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	height: 250px;
+	position: absolute;
+	z-index: 199;
+	border-radius: inherit;
+}
+.dm-container {
+	height: 100%;
+}
+.dm-row {
+	height: 100%;
+}
+.gradient-box {
+	display: flex;
+	align-items: center;
+	width: 90%;
+	margin: auto;
+	max-width: 22em;
+	position: relative;
+	padding: 30% 2em;
+	box-sizing: border-box;
+	color: #fff;
+	background: #373b44; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to top,
+		#4286f4,
+		#373b44
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to top,
+		#4286f4,
+		#373b44
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background-clip: padding-box;
+	border: solid 5px transparent;
+	border-radius: 1em;
+	/* z-index: 0; */
+}
+
+.gradient-box:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	margin: -10px;
+	border-radius: inherit;
+	background: #000046; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to top,
+		#1cb5e0,
+		#000046
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to top,
+		#1cb5e0,
+		#000046
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.dm-input-container {
+	display: flex;
+	align-items: center;
+}
+.dm-col {
+	height: 100%;
+}
+.dm-card-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+.dm-card {
+	margin-left: 30px;
+	margin-top: 30px;
+}
+.dm-card-body {
+	height: 30px;
+	text-align: center;
+	padding: 0px;
+	padding-top: 4px;
+}
+.dm-card-footer {
+	padding: 0px !important;
+	text-align: center;
+}
